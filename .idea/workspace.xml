@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29db5778-a5d1-4484-b8bf-efffe0260e75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/migrations/0002_auto_20180220_1559.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DjangoPython/db.sqlite3" afterPath="$PROJECT_DIR$/DjangoPython/db_Dev.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/DjangoPython/envsettings/local_settings.py" afterPath="$PROJECT_DIR$/DjangoPython/envsettings/local_settings.py" />
-      <change beforePath="$PROJECT_DIR$/DjangoPython/urls.py" afterPath="$PROJECT_DIR$/DjangoPython/urls.py" />
-      <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/admin.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/admin.py" />
-      <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py" />
-      <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py" />
-      <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/js/main.js" afterPath="$PROJECT_DIR$/main/static/main/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/js/tasks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/base.html" afterPath="$PROJECT_DIR$/main/templates/main/base.html" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/home.html" afterPath="$PROJECT_DIR$/main/templates/main/home.html" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -82,17 +66,17 @@
         <entry file="file://$PROJECT_DIR$/main/templates/main/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="42" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -112,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-318">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -153,7 +137,6 @@
         <option value="$PROJECT_DIR$/DjangoPython/settings.py" />
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py" />
         <option value="$PROJECT_DIR$/DjangoPython/urls.py" />
         <option value="$PROJECT_DIR$/main/static/main/js/tasks.js" />
         <option value="$PROJECT_DIR$/main/templates/main/home.html" />
@@ -166,6 +149,7 @@
         <option value="$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html" />
         <option value="$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js" />
         <option value="$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py" />
+        <option value="$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py" />
       </list>
     </option>
   </component>
@@ -214,78 +198,7 @@
               <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
               <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="envsettings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
               <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1519079452063</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding Models and Views">
+      <created>1519138478569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1519138478569</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding Models and Views">
+      <created>1519139592386</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519139592386</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -432,7 +359,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Added template, js, css, images files" />
     <MESSAGE value="Removing Files from .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing Files from .gitignore" />
+    <MESSAGE value="Adding Models and Views" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Models and Views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -729,15 +657,7 @@
     <entry file="file://$PROJECT_DIR$/main/templates/main/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="16" selection-end-column="42" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -760,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-318">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -772,6 +692,14 @@
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="60" lean-forward="false" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
