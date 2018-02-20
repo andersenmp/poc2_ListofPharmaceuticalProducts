@@ -25,7 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', HomeView.as_view(), name='home'),
     path('main/', include('main.urls',namespace='main')),
-    path('ListofPharmaceuticalProducts/', include('ListofPharmaceuticalProducts.urls')),
+    path('ListofPharmaceuticalProducts/', include('ListofPharmaceuticalProducts.urls',namespace='ListofPharmaceuticalProducts')),
 ]
 
 if settings.DEBUG:

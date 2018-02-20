@@ -1,0 +1,18 @@
+{% extends 'main/base.html' %}
+{% load staticfiles  %}
+
+{% block content %}
+    <ol class="breadcrumb">
+      <li><a href="{% url 'main:home' %}">Home</a></li>
+      <li class="active">List of Pharmaceutical Products</li>
+    </ol>
+    {% csrf_token %}
+    <div id="medicinesDataGrid"></div>
+
+{% endblock %}
+
+{% block extraJSFiles %}
+    <script src="{% static "ListofPharmaceuticalProducts/js/home.js" %}"></script>
+{% endblock %}
+
+

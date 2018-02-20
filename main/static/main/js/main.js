@@ -33,6 +33,7 @@ if (isMobile) {
   body.addClass('mobile').removeClass('stickymenu');
 }
 
+
 // fix the footer to the bottom if there are no scrollbars
 if(!hasScrollbar()) {
   body.addClass('noscroll');

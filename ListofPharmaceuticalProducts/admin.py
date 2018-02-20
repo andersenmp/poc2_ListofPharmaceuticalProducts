@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+
+class MedicalListAdmin(admin.ModelAdmin):
+    list_display = ('name', 'composition', 'reimbursible', 'usage','app_date')
+
+
+admin.site.register(MedicalList,MedicalListAdmin)

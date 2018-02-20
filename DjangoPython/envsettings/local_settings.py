@@ -23,15 +23,13 @@ ALLOWED_HOSTS = []
 INTERNAL_IPS = ['127.0.0.1']
 
 
-
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db_Dev.sqlite3'),
     }
 }
 
@@ -44,43 +42,19 @@ STATIC_URL = '/static/'
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'formatters': {
-        'verbose': {
-            'format': "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s]"
-                       "(message)s",
-            'datefmt': "%d/%b/%Y %H:%M:%S"
-        },
-        'simple': {
-            'format': '%(levelname)s %(message)s'
-        },
-    },
     'handlers': {
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
             'filename':  os.path.join(os.path.join(BASE_DIR, 'log'),
                                       'DjangoPython.log'),
-            'formatter': 'verbose'
         },
-        'null': {
-            'level': 'DEBUG',
-            'class': 'logging.NullHandler',
-        },
-        'console': {
-            'level': 'DEBUG',
-            'class': 'logging.StreamHandler',
-            'formatter': 'verbose'
-        }
     },
     'loggers': {
         'django': {
-            'handlers':['console'],
+            'handlers':['file'],
             'propagate': True,
-            'level':'INFO',
-        },
-        'main': {
-            'handlers': ['console'],
-            'level': 'INFO',
+            'level':'DEBUG',
         },
     }
 }
