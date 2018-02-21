@@ -165,19 +165,16 @@ doctorsAppDataDS = new kendo.data.DataSource({
 	transport:
 	{
 		read: {
-			url: "index.cfm?fuseaction=recamalMedicalDB.doctorsAppDataDS",
+			url: "GetMedicalListDoctor/",
 			dataType: "json",
-			data: { cache: false, nocache: Math.random(), recMode: isRecamalHQMode},
+			data: { cache: false, nocache: Math.random(), recMode: isRecamalHQMode, csrfmiddlewaretoken: $("input[name='csrfmiddlewaretoken']").val()},
 			type: 'POST'
 		},
 		update: {
- 			url: "index.cfm",
+ 			url: "UpdateMedicalList/",
 			dataType: "json",
 			type: 'POST',
-			data: {
-			    fuseaction: 'recamalMedicalDB.updateMedicineDS',
-			    cache: false, nocache: Math.random(), recMode: isRecamalHQMode
-		      },			      
+			data: { cache: false, nocache: Math.random(), recMode: isRecamalHQMode, csrfmiddlewaretoken: $("input[name='csrfmiddlewaretoken']").val()},
 		    complete: function (e,data) { 
 	                _updateMedicine(e);
 		     }
@@ -265,7 +262,8 @@ $(document).ready(function(){
 			this.thead.find(".k-icon.k-i-close").css("visibility", "hidden");
 			this.thead.find(".k-icon.k-i-close").css("visibility", "hidden");
 	    	$('.k-grid-update').addClass("k-button btn-primary btn-xs no-icon btn-no-min-width btn-center-padding");
-			$('.k-grid-cancel').addClass("k-button btn-default btn-xs no-icon btn-no-min-width btn-center-padding");
+			$('.k-grid-edit').addClass("k-button btn-primary btn-xs no-icon btn-no-min-width btn-center-padding");
+	    	$('.k-grid-cancel').addClass("k-button btn-default btn-xs no-icon btn-no-min-width btn-center-padding");
 				    	
 	    	var buttonStr = '<button type="button" onclick="resetFilter()" class="btn btn-primary btn-xs no-icon btn-no-min-width" style="padding:0px 10px; margin-top:4px;">';
 	    	buttonStr += getString('Reset');
@@ -277,7 +275,7 @@ $(document).ready(function(){
 	    			event.preventDefault();
 	    		}
 	    	});
-	    	
+
 	    	dataView = this.dataSource.view();
             for (var i = 0; i < dataView.length; i++) {
             	 
@@ -372,6 +370,7 @@ $(document).ready(function(){
 	
 	var medicineAppDataVar = $('#approvalDataGrid').kendoGrid({
 		dataSource: doctorsAppDataDS,
+        height: 600,
 		columns: [
 		          {field: 'MEDICINE_NAME', title: getString('Medicine Name'), width: "100px",editor:  medicineNameEditor ,  filterable: {
 	        		  extra: false,
@@ -432,8 +431,8 @@ $(document).ready(function(){
 			                      },
 			                      sortable: false} ,
 		        	  { command: [
-		        	              {name: 'edit', text: " ", 
-		                        	  template: "<a class='k-button k-grid-edit' href='' style='display: block;width: 46px;margin: 0 auto;'><span class='k-icon k-edit'></span></a>"
+		        	              {name: 'edit',
+                                	  template: "<a class='k-button k-grid-edit' href='' style='display: block;width: 46px;margin: 0 auto;'><span class='k-icon k-edit'></span>"+getString('Edit')+"</a>"
 		                          }
 		        	              /*,
 		        	              {name: 'destroy', text: " ", width: '30', 
@@ -486,7 +485,8 @@ $(document).ready(function(){
 	    	var grid = $("#approvalDataGrid").data("kendoGrid");
 	    	// grid.hideColumn(3);
 	    	$('.k-grid-update').addClass("k-button btn-primary btn-xs no-icon btn-no-min-width btn-center-padding");
-			$('.k-grid-cancel').addClass("k-button btn-default btn-xs no-icon btn-no-min-width btn-center-padding");
+			$('.k-grid-edit').addClass("k-button btn-primary btn-xs no-icon btn-no-min-width btn-center-padding");
+	    	$('.k-grid-cancel').addClass("k-button btn-default btn-xs no-icon btn-no-min-width btn-center-padding");
 			
 			 var filter = this.dataSource.filter();
 				

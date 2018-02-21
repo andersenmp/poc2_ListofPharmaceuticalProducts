@@ -7,26 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29db5778-a5d1-4484-b8bf-efffe0260e75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/test_models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/test_views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/tests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main/tests/test_views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1a3cc36b-dfb2-4c06-a79a-3b0a524ca551.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/1a3cc36b-dfb2-4c06-a79a-3b0a524ca551/storage_v2/_src_/schema/main.uQUzAA.meta" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DjangoPython/db_Dev.sqlite3" afterPath="$PROJECT_DIR$/DjangoPython/db_Dev.sqlite3" />
-      <change beforePath="$PROJECT_DIR$/DjangoPython/settings.py" afterPath="$PROJECT_DIR$/DjangoPython/settings.py" />
       <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js" />
       <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html" />
-      <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/tests.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py" />
       <change beforePath="$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py" afterPath="$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/static/main/js/main.js" afterPath="$PROJECT_DIR$/main/static/main/js/main.js" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/home.html" afterPath="$PROJECT_DIR$/main/templates/main/home.html" />
-      <change beforePath="$PROJECT_DIR$/main/tests.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/main/urls.py" afterPath="$PROJECT_DIR$/main/urls.py" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" afterPath="$PROJECT_DIR$/main/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -83,37 +71,10 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+            <state relative-caret-position="442">
+              <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="1059" column="42" lean-forward="false" selection-start-line="1059" selection-start-column="42" selection-end-line="1059" selection-end-column="42" />
-              <folding>
-                <marker date="1519220406746" expanded="true" signature="8367:8400" ph="..." />
-                <marker date="1519220406746" expanded="true" signature="14426:14473" ph="..." />
-                <marker date="1519220406746" expanded="true" signature="15026:15068" ph="..." />
-                <marker date="1519220406746" expanded="true" signature="16981:17014" ph="..." />
-                <marker date="1519220406746" expanded="true" signature="18446:18458" ph="..." />
-                <marker date="1519220406746" expanded="true" signature="33494:33541" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,15 +89,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="209" column="20" lean-forward="false" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
+              <folding>
+                <marker date="1519223979090" expanded="true" signature="8505:8538" ph="..." />
+                <marker date="1519223979090" expanded="true" signature="14579:14626" ph="..." />
+                <marker date="1519223979090" expanded="true" signature="15173:15215" ph="..." />
+                <marker date="1519223979090" expanded="true" signature="17258:17291" ph="..." />
+                <marker date="1519223979090" expanded="true" signature="18723:18735" ph="..." />
+                <marker date="1519223979090" expanded="true" signature="33771:33818" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/test_views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
-              <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+            <state relative-caret-position="680">
+              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,6 +160,9 @@
       <find>attributes</find>
       <find>error</find>
       <find>setMedicineGridFileds</find>
+      <find>doctorsAppDataDS</find>
+      <find>{name: 'edit'</find>
+      <find>edit</find>
     </findStrings>
     <dirStrings>
       <dir>D:\EEAS\PQTM\poc\DjangoPython</dir>
@@ -296,6 +296,12 @@
               <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoPython" type="462c0819:PsiDirectoryNode" />
+              <item name="ListofPharmaceuticalProducts" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DjangoPython" type="b2602c69:ProjectViewProjectNode" />
@@ -561,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519139628312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Adding Models and Views">
+      <created>1519220498089</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1519220498089</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -601,14 +614,14 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41463414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31313926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15769017" sideWeight="0.5046948" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15769017" sideWeight="0.50537634" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15880066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15769017" sideWeight="0.49530515" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15769017" sideWeight="0.49462366" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -996,16 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/main/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -1016,8 +1019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1031,8 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="442">
+          <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -1041,28 +1044,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/templates/ListofPharmaceuticalProducts/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        <state relative-caret-position="680">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/static/ListofPharmaceuticalProducts/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="1059" column="42" lean-forward="false" selection-start-line="1059" selection-start-column="42" selection-end-line="1059" selection-end-column="42" />
+        <state relative-caret-position="333">
+          <caret line="209" column="20" lean-forward="false" selection-start-line="209" selection-start-column="20" selection-end-line="209" selection-end-column="20" />
           <folding>
-            <marker date="1519220406746" expanded="true" signature="8367:8400" ph="..." />
-            <marker date="1519220406746" expanded="true" signature="14426:14473" ph="..." />
-            <marker date="1519220406746" expanded="true" signature="15026:15068" ph="..." />
-            <marker date="1519220406746" expanded="true" signature="16981:17014" ph="..." />
-            <marker date="1519220406746" expanded="true" signature="18446:18458" ph="..." />
-            <marker date="1519220406746" expanded="true" signature="33494:33541" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="8505:8538" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="14579:14626" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="15173:15215" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="17258:17291" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="18723:18735" ph="..." />
+            <marker date="1519223979090" expanded="true" signature="33771:33818" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListofPharmaceuticalProducts/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
