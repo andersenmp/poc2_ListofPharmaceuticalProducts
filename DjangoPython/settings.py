@@ -41,8 +41,19 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'django_nose',
     'main',
     'ListofPharmaceuticalProducts',
+]
+
+# Use nose to run all tests
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+
+# Tell nose to measure coverage on the 'foo' and 'bar' apps
+NOSE_ARGS = [
+    '--with-coverage',
+    '--verbosity=3',
+    '--cover-package=main,ListofPharmaceuticalProducts',
 ]
 
 MIDDLEWARE = [
