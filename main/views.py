@@ -4,7 +4,6 @@ from DjangoPython.core.Sentry import Sentry
 
 
 class HomeView(LoginRequiredMixin, TemplateView):
-    login_url = '/accounts/login'
     template_name = "main/home.html"
 
     def get_context_data(self, **kwargs):

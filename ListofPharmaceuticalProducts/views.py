@@ -10,7 +10,6 @@ from django.utils.decorators import method_decorator
 
 @method_decorator(sentry_has_access_to_feature('/ADMINISTRATOR'), name='dispatch')
 class HomeView(LoginRequiredMixin, TemplateView):
-    login_url = '/accounts/login'
     template_name = "ListofPharmaceuticalProducts/home.html"
 
 
