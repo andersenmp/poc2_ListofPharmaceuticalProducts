@@ -40,9 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_cas_ng',
     'debug_toolbar',
     'django_nose',
-    'main',
+    'main.apps.MainConfig',
     'ListofPharmaceuticalProducts',
 ]
 
@@ -51,8 +52,7 @@ TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 # Tell nose to measure coverage on the 'foo' and 'bar' apps
 NOSE_ARGS = [
-    '--with-coverage',
-    '--verbosity=3',
+    '--cover-erase',
     '--cover-package=main,ListofPharmaceuticalProducts',
 ]
 
@@ -66,6 +66,18 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'django_cas_ng.backends.CASBackend',
+]
+
+
+CAS_SERVER_URL = 'https://webgate.ec.europa.eu/cas/'
+
+LOGIN_URL = '/accounts/login'
+
+CAS_RETRY_LOGIN = True
 
 ROOT_URLCONF = 'DjangoPython.urls'
 

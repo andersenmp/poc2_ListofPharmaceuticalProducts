@@ -19,6 +19,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+TEMPLATE_DEBUG = True
+
 ALLOWED_HOSTS = []
 INTERNAL_IPS = ['127.0.0.1']
 
@@ -38,23 +40,62 @@ DATABASES = {
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
+#
+# LOGGING = {
+#     'version': 1,
+#     'disable_existing_loggers': False,
+#     'handlers': {
+#         'file': {
+#             'level': 'DEBUG',
+#             'class': 'logging.FileHandler',
+#             'filename':  os.path.join(os.path.join(BASE_DIR, 'log'),
+#                                       'DjangoPython.log'),
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers':['file'],
+#             'propagate': True,
+#             'level':'DEBUG',
+#         },
+#     }
+# }
+
+
 
 LOGGING = {
     'version': 1,
-    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+        },
+        'simple': {
+            'format': '%(levelname)s %(message)s'
+        },
+    },
     'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple'
+        },
         'file': {
             'level': 'DEBUG',
             'class': 'logging.FileHandler',
-            'filename':  os.path.join(os.path.join(BASE_DIR, 'log'),
-                                      'DjangoPython.log'),
+            'filename': os.path.join(os.path.join(BASE_DIR, 'log'), 'DjangoPython.log'),
+            'formatter': 'simple'
         },
     },
     'loggers': {
         'django': {
-            'handlers':['file'],
+            'handlers': ['file'],
+            'level': 'DEBUG',
             'propagate': True,
-            'level':'DEBUG',
         },
     }
 }
+
+if DEBUG:
+    # make all loggers use the console.
+    for logger in LOGGING['loggers']:
+        LOGGING['loggers'][logger]['handlers'] = ['console']

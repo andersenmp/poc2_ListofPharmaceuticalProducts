@@ -9,6 +9,4 @@ urlpatterns = [
     path('UpdateMedicalList/', UpdateMedicalListView.as_view(), name='UpdateMedicalListView'),
     path('CreateMedicalList/', CreateMedicalListView.as_view(), name='CreateMedicalListView'),
     path('GetMedicalListDoctor/', GetMedicalListDoctorView.as_view(), name='GetMedicalListDoctorView'),
-
-
 ]
