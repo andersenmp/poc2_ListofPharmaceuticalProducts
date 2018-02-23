@@ -93,7 +93,8 @@ class GetMedicalListDoctorView(LoginRequiredMixin, View):
                     'LINK': item.link,
                     'REIMBURSIBLE': item.reimbursible,
                     'COMMENTS': item.comments,
-                    'USAGE': item.usage
+                    'USAGE': item.usage,
+                    'REQUESTED_BY': item.requested_by.get_full_name()
 
                 }
             )
@@ -163,6 +164,7 @@ class CreateMedicalListView(LoginRequiredMixin, View):
         obj.comments = comments
         obj.link = link
         obj.reimbursible = reimbursible
+        obj.requested_by = self.request.user
         obj.save()
 
         return JsonResponse(response, status=200, safe=False)
