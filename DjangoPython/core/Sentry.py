@@ -1,5 +1,7 @@
 from main.models import SentryModel
 from django.core.exceptions import PermissionDenied
+from django.http import HttpResponseRedirect
+from django.urls import reverse
 
 
 class Sentry:
@@ -40,6 +42,8 @@ class Sentry:
 def sentry_has_access_to_feature(feature):
     def real_decorator(function):
         def wrap(request, *args, **kwargs):
+            if not request.user.is_authenticated:
+                return HttpResponseRedirect(reverse('main:home'))
             sentry = Sentry(user=request.user)
             if sentry.has_access_to_feature(feature):
                 return function(request, *args, **kwargs)

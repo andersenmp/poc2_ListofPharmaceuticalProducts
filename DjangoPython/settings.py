@@ -77,8 +77,6 @@ LOGIN_URL = '/accounts/login'
 
 CAS_RETRY_LOGIN = True
 
-
-
 ROOT_URLCONF = 'DjangoPython.urls'
 
 TEMPLATES = [

@@ -20,7 +20,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.europa.eu']
+ALLOWED_HOSTS = ['*']
 INTERNAL_IPS = ['127.0.0.1']
 
 # Database
