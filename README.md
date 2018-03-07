@@ -1,6 +1,13 @@
 # poc2_ListofPharmaceuticalProducts
 This is a Proof of Concept developed with Python/Django
 
+# Development environment
+```
+Python 3.6.4
+Pip 9.0.1
+Virtualenv 15.1.0
+```
+
 # Install
 ```
 $ git clone https://github.com/andersenmp/poc2_ListofPharmaceuticalProducts.git
