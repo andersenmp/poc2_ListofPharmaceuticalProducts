@@ -35,3 +35,9 @@ $ bash update_poc.sh
 $ cd poc2_ListofPharmaceuticalProducts
 $ bash start_poc.sh
 ```
+
+# Test
+```
+$ cd poc2_ListofPharmaceuticalProducts
+$ bash test_poc.sh
+```
