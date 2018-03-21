@@ -103,7 +103,7 @@
   <div id="hide-menu"></div>
 
 
-  {% if sentry_count %}
+  {% if request.session.sentry_count %}
   <nav class="main">
     <div id="sticky"><i class="glyphicon glyphicon-pushpin sticky tt" title="Make this menu sticky" data-placement="right"></i></div>
 
@@ -113,7 +113,7 @@
                                 class="active"
             {% endif %}><a href="{% url 'main:home' %}">Home</a></li>
 
-    {% if menu_ListofPharmaceuticalProducts %}
+    {% if request.session.menu_ListofPharmaceuticalProducts %}
         <li><div class="item">CISLA <b class="caret"></b></div>
         <ul>
           <li {% if request.resolver_match.view_name == 'ListofPharmaceuticalProducts:home' %}

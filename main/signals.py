@@ -12,6 +12,8 @@ def user_authenticated_(sender, user, created, attributes, ticket, service, requ
     obj.last_name = sentry.get_last_name()
     obj.email = sentry.get_email()
     obj.save()
+    request.session['sentry_count'] = sentry.get_total_rows()
+    request.session['menu_ListofPharmaceuticalProducts'] = sentry.has_access_to_feature('/ADMINISTRATOR')
 
 
 @receiver(cas_user_logout, dispatch_uid="unique")
