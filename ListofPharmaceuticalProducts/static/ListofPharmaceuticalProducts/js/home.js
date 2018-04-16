@@ -93,7 +93,7 @@ medicineDataDS = new kendo.data.DataSource({
             	COMMENTS: {type: "string",editable: true},
             	APP_DATE: {type: "string"},
             	LINK: {type: "string", editable: true},
-            	ATTACHMENT: { type: "string" ,editable: true, template: "#=customSaveField#"},
+            	//ATTACHMENT: { type: "string" ,editable: true, template: "#=customSaveField#"},
             }
         }
     },
@@ -157,7 +157,7 @@ doctorsAppDataDS = new kendo.data.DataSource({
             	REQUESTED_BY: {type: "string",editable: false},
             	APP_DATE: {type: "string"},
             	LINK: {type: "string", editable: true},
-            	ATTACHMENT: { type: "string" ,editable: true, template: "#=customSaveField#"},
+            	//ATTACHMENT: { type: "string" ,editable: true, template: "#=customSaveField#"},
             	REQUESTED_TO: {type: "string",editable: false},
             }
         }
@@ -214,7 +214,7 @@ $(document).ready(function(){
 		
 		},
 		save: function(e,c) {
-			e.model.set("ATTACHMENT",$("#uploadedFile").val());
+			//e.model.set("ATTACHMENT",$("#uploadedFile").val());
 		},
 		cancel: function(e) {
 			
@@ -411,7 +411,7 @@ $(document).ready(function(){
 			        		    	  }
 			        		      },
 		          {field: 'LINK', hidden: false, width: 100, title: getString('url Link'), template: '# if(LINK) { # <a href="#= LINK #" target="_blank">Link</a> # } #', filterable: {cell: {showOperators: false}}},
-		          {field: 'ATTACHMENT',  title:getString('File'), width: "80px",
+		          /*{field: 'ATTACHMENT',  title:getString('File'), width: "80px",
 		        			  editor: fileUploadEditor,
 		        			  template:  function(dataItem) {
 						 			var returnStr = '';
@@ -429,7 +429,7 @@ $(document).ready(function(){
 			                              enabled: false
 			                          }
 			                      },
-			                      sortable: false} ,
+			                      sortable: false} ,*/
 		        	  { command: [
 		        	              {name: 'edit',
                                 	  template: "<a class='k-button k-grid-edit' href='' style='display: block;width: 46px;margin: 0 auto;'><span class='k-icon k-edit'></span>"+getString('Edit')+"</a>"
@@ -448,7 +448,7 @@ $(document).ready(function(){
 				
 				},
 					save: function(e,c){
-						e.model.set("ATTACHMENT",$("#uploadedFile").val());
+						//e.model.set("ATTACHMENT",$("#uploadedFile").val());
 					},
 		
 		columnMenu: {
@@ -1029,7 +1029,7 @@ function setMedicineGridFileds() {
   	  }
     },
     {field: 'LINK', width: "100px", title: getString('Url Link'), template: '# if(LINK) { # <a href="#= LINK #" target="_blank">Link</a> # } #', filterable: {cell: {showOperators: false}}},
-    {field: 'ATTACHMENT',  title:getString('File'),
+    /*{field: 'ATTACHMENT',  title:getString('File'),
 		  editor: fileUploadEditor,
 		  filterable: {
             cell: {
@@ -1049,7 +1049,7 @@ function setMedicineGridFileds() {
 	 			}
 	 			return returnStr;
 	 		}
-    } ,
+    } ,*/
   	
 	  { command: [
             {name:"edit",
