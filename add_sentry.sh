@@ -23,9 +23,9 @@ echo "ilogin = ${i}"
 echo "firstName = ${f}"
 echo "lastName = ${l}"
 
-sqlite3 DjangoPython/db_Dev.sqlite3 "insert into main_sentrymodel (login, first_name, last_name, feature, access_mode) values ('${i}','${f}','${l}','\ADMINISTRATOR','I')"
+sqlite3 DjangoPython/db_Dev.sqlite3 "insert into main_sentrymodel (login, first_name, last_name, email, feature, access_mode) values ('${i}','${f}','${l}','${f}.${l}@eeas.europa.eu', '/ADMINISTRATOR','I')"
 
 echo "Records in Sentry for ${i}"
 
-sqlite3 DjangoPython/db_Dev.sqlite3 "select login, first_name, last_name, feature, access_mode from main_sentrymodel where login = '${i}'"
+sqlite3 DjangoPython/db_Dev.sqlite3 "select login, first_name, last_name, email, feature, access_mode from main_sentrymodel where login = '${i}'"
 
