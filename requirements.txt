@@ -5,7 +5,7 @@ cffi==1.11.4
 chardet==3.0.4
 coverage==4.5.1
 cryptography==2.3
-Django==2.0.2
+Django==2.2.10
 django-debug-toolbar==1.9.1
 django-model-utils==3.1.1
 django-nose==1.4.5
